@@ -11,6 +11,23 @@
     
 }*/
 
+/*#particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.body-particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}*/
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #293241;
@@ -40,7 +57,7 @@ body {
 }
 
 #ilustracion-presentacion {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     top: 25rem;
     left: 35rem;
@@ -51,7 +68,7 @@ body {
 }
 
 h1 {
-    z-index: 0;
+    z-index: 1;
     color: #e0fbfc;
     font-size: 8rem;
     font-weight: 800;
@@ -112,6 +129,11 @@ article p {
     box-shadow: 0rem 0rem 0.825rem rgba(0, 0, 0, 0.44);
 }
 
+.toolset .proximamente{
+    padding-top: 0.3rem;
+    
+}
+
 h3 {
     color: #e0fbfc;
     font-size: 2.6rem;
@@ -157,16 +179,8 @@ h3 {
     padding: 0.688rem 1.25rem 0.688rem 1.25rem;
 }
 
-hr {
-    margin: auto;
-    width: 30%;
-    background-color: #e0fbfc;
-    border-width: 0.12rem;
-}
-
 footer .redes {
-    justify-content: center;
-    text-align: center;
+    padding-right: 2.5rem;
 }
 
 footer a img {
@@ -177,6 +191,13 @@ footer p {
     font-weight: 200;
     color: #e0fbfc;
     font-size: 1rem;
+}
+
+hr {
+    margin: auto;
+    width: 30%;
+    background-color: #e0fbfc;
+    border-width: 0.12rem;
 }
 
 .btn:hover {
@@ -309,6 +330,12 @@ footer p {
         margin-left: 0;
         margin-right: 1.4rem;
     }
+    
+    .toolset .proximamente{
+        width: 99px;
+        height: 98px;
+        padding-top: 0.2rem;  
+    }
 
     article p {
         padding: 0;
@@ -345,11 +372,12 @@ footer p {
 
     hr {
         margin: auto;
-        width: 85%;
+        margin-left: 2.9rem;
+        width: 75%;
     }
 
     footer .redes {
-        margin-top: 4rem;
+        margin-top: 3rem;
         margin-bottom: 3rem;
     }
 
@@ -361,11 +389,14 @@ footer p {
 
     footer p {
         text-align: center;
-        justify-content: center;
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1rem;
     }
+    
+    footer .redes {
+    padding-left: 2.5rem;
+}
 
     #ilustracion-1 {
         display: none;
@@ -376,12 +407,17 @@ footer p {
     }
 }
 
-/*CENTRADO BOTONES TOOLSET IPHONE6/7/8 PLUS*/
-@media (min-width:374px) {
+/*CENTRADO BOTONES TOOLSET Y FOOTER IPHONE6/7/8 PLUS*/
+@media (max-width:375px) {
 
     .toolset .botones {
         margin-left: 5rem;
-
+    }
+    
+    hr {
+        margin: auto;
+        margin-left: 3rem;
+        width: 75%;
     }
 }
 
@@ -484,6 +520,12 @@ footer p {
     .toolset .btn-css {
         margin-left: 0;
         border-radius: 0.25rem
+    }
+    
+    .toolset .proximamente{
+        width: 115px;
+        height: 115px;
+        padding-top: 0.4rem;  
     }
 
     .btn-portfolio {
@@ -623,6 +665,12 @@ footer p {
 
     .toolset button img {
         width: 6rem;
+    }
+    
+    .toolset .proximamente{
+        width: 160px;
+        height: 160px;
+        padding-top: 0.4rem;  
     }
 
     .toolset .row .botones {
