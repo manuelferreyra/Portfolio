@@ -434,7 +434,7 @@ hr {
 }
 
 /*CENTRADO BOTONES TOOLSET Y FOOTER IPHONE 6/7/8*/
-@media (min-width:375px) {
+@media (max-width:375px) {
     
     .navbar {
         padding-left: 0;
@@ -489,7 +489,7 @@ hr {
 }
 
 /*CENTRADO BOTONES TOOLSET IPHONE 6/7/8 PLUS*/
-@media (min-width:414px){
+@media (max-width:414px){
     
     .navbar {
         padding-left: 0;
@@ -533,7 +533,7 @@ hr {
     }
     
     hr{
-        margin-left: 3.3rem;
+        margin-left: 3.4rem;
     }
 }
 
