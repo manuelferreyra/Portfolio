@@ -507,6 +507,7 @@ hr {
     
     .navbar .logo-mobile{
         display: block;
+        margin-right: 0;
     }
     
     .navbar .idioma img{
