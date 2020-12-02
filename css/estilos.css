@@ -265,10 +265,6 @@ hr {
         margin-bottom: 2rem;
     }
     
-    header .col{
-        padding: 0;
-    }
-    
     .navbar .navbar-toggler img{
         margin-left: 0.2rem;
     }
@@ -507,7 +503,6 @@ hr {
     
     .navbar .logo-mobile{
         display: block;
-        margin-right: 0;
     }
     
     .navbar .idioma img{
