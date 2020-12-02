@@ -257,8 +257,8 @@ hr {
 @media (max-width:576px) {
 
     .navbar {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 2;
+        padding-right: 2;
         margin-left: 0;
         padding-top: 0;
         margin-bottom: 2rem;
@@ -272,6 +272,7 @@ hr {
         font-size: 1.1rem;
         margin-top: 0.2rem;
         margin-left: 1rem;
+        margin-right: 1rem;
         color: #e0fbfc;
         text-decoration: none;
     }
@@ -489,38 +490,6 @@ hr {
 
 /*CENTRADO BOTONES TOOLSET IPHONE 6/7/8 PLUS*/
 @media (max-width:414px){
-    
-    .navbar {
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        padding-top: 0;
-        margin-bottom: 2rem;
-    }
-    
-    .navbar .navbar-toggler img{
-        margin-left: 0.2rem;
-    }
-    
-    .navbar .idioma a{
-        font-size: 1.1rem;
-        margin-top: 0.2rem;
-        margin-left: 1rem;
-        color: #e0fbfc;
-        text-decoration: none;
-    }
-    
-    .navbar .logo-grande{
-        display: none;
-    }
-    
-    .navbar .logo-mobile{
-        display: block;
-    }
-    
-    .navbar .idioma img{
-        width: 30px;
-    }
     
     .toolset .row .botones {
      padding: 0;
