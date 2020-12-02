@@ -262,8 +262,8 @@ hr {
 
 }
 
-/*DISPOSITIVOS CHICOS*/
-@media (max-width:576px) {
+/*DISPOSITIVOS CHICOS y muy chicos*/
+@media (max-width:767px) {
 
     .navbar {
         padding-left: 0;
