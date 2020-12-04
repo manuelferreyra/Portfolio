@@ -54,6 +54,10 @@ body {
     -webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;
 }
 
+#menu-redes{
+    -webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;
+}
+
 .navbar .idioma a{
         margin-top: 0.1rem;
         color: #e0fbfc;
