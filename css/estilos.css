@@ -181,8 +181,9 @@ h3 {
 }
 
 footer .redes {
+    margin: auto;
     padding-right: 2.5rem;
-    margin-left: 0.8rem;
+    
 }
 
 footer a img {
@@ -239,17 +240,6 @@ hr {
         font-size: 5rem;
         font-weight: 800;
         line-height: 7rem;
-    }
-
-}
-
-@media (max-width:360px) {
-    .nav-item1 {
-        margin: 0 0 0 0;
-    }
-
-    picture {
-        width: 0;
     }
 
 }
@@ -433,6 +423,27 @@ hr {
     }
 }
 
+/*CENTRADO BOTONES TOOLSET IPHONE 6/7/8 PLUS*/
+@media (max-width:414px){
+    
+    .navbar .idioma img{
+        margin-right: 1rem;
+    }
+    
+    .toolset .row .botones {
+     padding: 0;
+     padding-left: 1.7rem;
+    }
+    
+    #contenedor-1{
+        margin-bottom: 1rem;  
+    }
+    
+    hr{
+        margin-left: 3.4rem;
+    }
+}
+
 /*CENTRADO BOTONES TOOLSET Y FOOTER IPHONE 6/7/8*/
 @media (max-width:375px) {
     
@@ -468,7 +479,8 @@ hr {
     }
 
     .toolset .row .botones {
-        margin-left: 4.6rem;
+        margin-left: 4.8rem;
+        padding-left: 0.3rem;
     }
     
     hr {
@@ -487,25 +499,69 @@ hr {
     
 }
 
-/*CENTRADO BOTONES TOOLSET IPHONE 6/7/8 PLUS*/
-@media (max-width:414px){
-    
-    .navbar .idioma img{
-        margin-right: 1rem;
+@media (max-width:360px) {
+    .nav-item1 {
+        margin: 0 0 0 0;
+    }
+
+    picture {
+        width: 0;
+    }
+    hr{
+        
+        margin-left: 3.4rem;
     }
     
-    .toolset .row .botones {
-     padding: 0;
-     margin-left: 5.8rem;   
+    main .toolset .row .botones{
+        margin-left: 4.3rem;
+        padding-left: 0; 
     }
     
-    #contenedor-1{
-        margin-bottom: 1rem;  
+    footer .redes .instagram{
+        margin-left: 0.7rem;
+    }
+
+}
+
+/*IPHONE 5 / SE*/
+@media (max-width:320px) {
+    
+    .navbar{
+        margin-bottom: 0.4rem;
+    }
+    
+    h1{
+        font-size: 4.5rem;
+        line-height: 5rem;   
+    }
+    
+    .nav-item1 {
+        margin: 0 0 0 0;
+    }
+    
+    #why-me h2{
+        font-size: 2.8rem
+        
     }
     
     hr{
-        margin-left: 3.4rem;
+        margin-left: 2.5rem;
     }
+
+    picture {
+        width: 0;
+    }
+    
+    main .toolset .row .botones{
+        margin-left: 3rem;
+        padding-left: 0; 
+    }
+    
+    footer .redes .instagram{
+        
+        margin-left: 0;
+    }
+    
 }
 
 /*DISPOSITIVOS CHICOS*/
