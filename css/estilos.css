@@ -1112,6 +1112,15 @@ hr {
 }
 }
 
+@media (min-width:1600px){
+#ilustracion-presentacion {
+    z-index: 2;
+    position: absolute;
+    top: 25rem;
+    left: 42.7rem;
+}
+}
+
 @media (min-width:1680px){
 #ilustracion-presentacion {
     z-index: 2;
