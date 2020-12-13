@@ -244,7 +244,6 @@ hr {
 
 }
 
-/*DISPOSITIVOS MUY CHICOS*/
 @media (max-width:576px) {
 
     .navbar {
@@ -554,12 +553,27 @@ hr {
     
     main .toolset .row .botones{
         margin-left: 3rem;
-        padding-left: 0; 
+        padding-left: 0;
+        padding-right: 1rem;
     }
     
     footer .redes .instagram{
         
         margin-left: 0;
+    }
+    
+}
+
+/*DISPOSITIVOS MUY CHICOS*/
+@media (min-width: 415px) and (max-width:576px){
+    .navbar .idioma img{
+        width: 30px;
+        margin-right: 1rem;
+    }
+    
+    .toolset .row .botones {
+        padding: 0;
+        padding-left: 2rem;   
     }
     
 }
