@@ -508,12 +508,12 @@ hr {
     }
     hr{
         
-        margin-left: 3.4rem;
+        margin-left: 3rem;
     }
     
     main .toolset .row .botones{
-        margin-left: 4.3rem;
-        padding-left: 0; 
+        margin-left: 2rem;
+        padding-left: 2rem; 
     }
     
     footer .redes .instagram{
@@ -573,7 +573,13 @@ hr {
     
     .toolset .row .botones {
         padding: 0;
-        padding-left: 2rem;   
+        margin: 0;
+        padding-left: 7rem;   
+    }
+    
+    hr{
+        margin-left: 3.4rem;
+        
     }
     
 }
